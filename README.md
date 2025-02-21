@@ -6,10 +6,15 @@ This repository is the official implementation of the article **"Efficient navig
 
 The repository includes the implementation of RL algorithms, flow field prediction models, and related tools, allowing researchers to replicate the experiments and further explore RL-based navigation tasks in fluid dynamics.
 
-[DG.mp4](video/DG_65pxiRDaad.mp4)
+<video width="640" height="360" controls>
+  <source src="video/CF_0xvm3VnOIw.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-[CF.mp4](video/CF_2TfV1hFFnb.mp4)
-
+<video width="640" height="360" controls>
+  <source src="video/DG_JDUSJOUtH_.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 | Environment    | SuccessRate-BaseSS  | SuccessRate-TrueLASS  | SuccessRate-PredLASS  |
