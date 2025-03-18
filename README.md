@@ -28,7 +28,7 @@ To run the code on a Windows machine with Conda installed, follow the instructio
 # For the CPU version.
 conda create -n LASS python=3.9
 conda install pytorch=1.13.1 -c pytorch -c nvidia -y
-conda install gymnasium termcolor colorma scipy matplotlib scikit-learn pandas -y
+conda install gymnasium termcolor colorama scipy matplotlib scikit-learn pandas -y
 
 ```
 
