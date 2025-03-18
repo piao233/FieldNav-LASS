@@ -2,7 +2,7 @@
 
 # Overview
 
-This repository is the official implementation of the article **"Efficient navigation in vortical flows based on reinforcement learning and flow field prediction"**. The goal of this work is to enhance reinforcement learning (RL) navigation in complex flow fields using the **Look-Ahead State Space (LASS)** method. LASS allows RL agents to effectively utilize flow field prediction information, improving navigation performance in environments with partially observable and dynamic flow fields. The core innovation lies in enabling RL agents to navigate in situations where the agent's velocity is slower than the flow field's, thereby requiring the agent to rely on flow field features for effective navigation. The article demonstrates that a simple yet effective strategy, like LASS, can significantly improve RL's efficiency.
+This repository is the official implementation of the article **"Efficient navigation in vortical flows based on reinforcement learning and flow field prediction"**(https://doi.org/10.1016/j.oceaneng.2025.120937). The goal of this work is to enhance reinforcement learning (RL) navigation in complex flow fields using the **Look-Ahead State Space (LASS)** method. LASS allows RL agents to effectively utilize flow field prediction information, improving navigation performance in environments with partially observable and dynamic flow fields. The core innovation lies in enabling RL agents to navigate in situations where the agent's velocity is slower than the flow field's, thereby requiring the agent to rely on flow field features for effective navigation. The article demonstrates that a simple yet effective strategy, like LASS, can significantly improve RL's efficiency.
 
 The repository includes the implementation of RL algorithms, flow field prediction models, and related tools, allowing researchers to replicate the experiments and further explore RL-based navigation tasks in fluid dynamics.
 
@@ -37,7 +37,7 @@ conda install gymnasium termcolor colorma scipy matplotlib scikit-learn pandas -
 # For the GPU version. Adjust the PyTorch version based on your system specifications.
 conda create -n LASS python=3.9
 conda install pytorch=1.13.1=py3.9_cuda11.7_cudnn8_0 -c pytorch -c nvidia -y
-conda install gymnasium termcolor colorma scipy matplotlib scikit-learn pandas -y
+conda install gymnasium termcolor colorama scipy matplotlib scikit-learn pandas -y
 ```
 
 
